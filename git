@@ -50,3 +50,7 @@ linux安装git
 　　git merge <name>
 删除分支
 　　git branch -d <name>
+产生合并冲突哟啊手动解决冲突
+分支合并图
+        git log --graph
+emo
