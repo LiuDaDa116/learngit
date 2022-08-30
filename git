@@ -13,3 +13,4 @@ linux安装git
         git status
 查看文件被修改了什么内容
         git diff
+    emo
