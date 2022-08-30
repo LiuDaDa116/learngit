@@ -1,3 +1,15 @@
-今天是学习git第一天ya
-现在逐渐复杂ya
-天气变冷了
+linux安装git 
+        sudo apt-get install git
+设置用户名与邮箱
+        git config --global user.name "Your Name"
+        git config --global user.email "email@example.com"
+把当前目录变成工作本地仓库
+        git init
+把文件放进暂存区
+        git add 文件名
+把文件放进仓库
+        git commit -m "备注说明"
+查看仓库当前状态
+        git status
+查看文件被修改了什么内容
+        git diff
