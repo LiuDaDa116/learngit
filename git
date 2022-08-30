@@ -13,9 +13,6 @@ linux安装git
         git status
 查看文件被修改了什么内容
         git diff
-<<<<<<< HEAD
-    emo
-=======
 查看提交日志
         git log --pretty=oneline
 回退版本
@@ -53,4 +50,3 @@ linux安装git
 　　git merge <name>
 删除分支
 　　git branch -d <name>
->>>>>>> feather1
