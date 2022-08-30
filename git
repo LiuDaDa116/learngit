@@ -7,10 +7,50 @@ linux安装git
         git init
 把文件放进暂存区
         git add 文件名
-把文件放进仓库
+把文件放进当前分支
         git commit -m "备注说明"
 查看仓库当前状态
         git status
 查看文件被修改了什么内容
         git diff
+<<<<<<< HEAD
     emo
+=======
+查看提交日志
+        git log --pretty=oneline
+回退版本
+        git reset --hard HEAD^
+回退任意版本
+        git reset --hard HEAD~数字
+查看命令日志
+        git reflog
+撤销工作区的修改
+　　git checkout --  文件名
+撤销暂存区的修改，撤销工作区的修改
+　　git reset HEAD 文件名
+　　git checkout --  文件名
+本地文件删除后，git版本库也删除
+　　 git rm 文件名
+本地文件删除后，回复本地的删除文件
+　　git checkout -- 文件名
+关联远程仓库，origin是远程库名字，后面是远程库实际地址
+        git remote add origin git@server-name:path/repo-name.git
+推送当前分支所有内容
+　　git push -u origin maste
+推送最新修改
+　　git push origin master
+克隆仓库
+         git clone git@github.com:michaelliao/gitskills.git
+查看分支
+        git branch
+创建分支
+　　git branch <name>或者git branch <name>
+切换分支
+　　git checkout <name>或者git switch <name>
+创建+切换分支
+　　git checkout -b <name>或者git switch -c <name>
+合并某分支到当前分支
+　　git merge <name>
+删除分支
+　　git branch -d <name>
+>>>>>>> feather1
